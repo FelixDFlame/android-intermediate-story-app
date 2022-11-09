@@ -1,0 +1,76 @@
+===Skenario Testing View Model===
+
+// LoginViewModelTest
+Ketika berhasil login (when Do Login Should Not Null and Return Success)
+- memastikan mengembalikan Result.Success
+- memastikan data tidak null
+
+Ketika gagal melakukan login (when Network Error Should Return Error)
+- memastikan mengembalikan Result.Error
+- memastikan data tidak null
+
+
+// RegisterViewModelTest
+Ketika berhasil register (when Do Register Should Not Null and Return Success)
+- memastikan mengembalikan Result.Success
+- memastikan data tidak null
+
+Ketika gagal melakukan register (when Network Error Should Return Error)
+- memastikan mengembalikan Result.Error
+- memastikan data tidak null
+
+
+// StoryAddViewModelTest
+Ketika berhasil add story (when Do Upload Should Not Null and Return Success)
+- memastikan mengembalikan Result.Success
+- memastikan data tidak null
+
+Ketika gagal melakukan add story (when Network Error Should Return Error)
+- memastikan mengembalikan Result.Error
+- memastikan data tidak null
+
+
+// LocationViewModelTest
+Ketika berhasil load story location (when Fetch Stories Location Should Not Null and Return Success)
+- memastikan mengembalikan Result.Success
+- memastikan data tidak null
+- memastikan jumlah data sesuai dengan yang diharapkan.
+
+Ketika gagal melakukan load story location (when Network Error Should Return Error)
+- memastikan mengembalikan Result.Error
+- memastikan data tidak null
+
+
+// MainViewModelTest
+Ketika berhasil load location (when Fetch Stories Should Not Null)
+- memastikan data tidak null
+
+===Skenario Testing Repository===
+
+// DicodingLoginRepositoryTest
+Ketika berhasil login (when do Login Should Not Null and Return Success Message)
+- memastikan data tidak null
+- memastikan mengembalikan message sesuai yang diharapkan "Success"
+
+
+// DicodingRegisterRepositoryTest
+Ketika berhasil register (when do Register Should Not Null and Return Success Message)
+- memastikan data tidak null
+- memastikan mengembalikan message sesuai yang diharapkan "Success"
+
+
+// DicodingAddStoryRepositoryTest
+Ketika berhasil add story (when do Upload Should Not Null and Return Success Message)
+- memastikan data tidak null
+- memastikan mengembalikan message sesuai yang diharapkan "Success"
+
+
+// DicodingStoryRepositoryTest
+Ketika berhasil load location story (when Fetch Story Location Should Not Null)
+- memastikan data tidak null
+- memastikan jumlah data sesuai dengan yang diharapkan.
+
+Ketika berhasil load story (when Fetch Story Should Not Null)
+- memastikan data tidak null
+
+

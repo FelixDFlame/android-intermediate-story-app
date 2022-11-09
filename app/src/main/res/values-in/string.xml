@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="welcome_story_app">Selamat datang Story App</string>
+    <string name="share_your_experience">Bagikan pengalaman mu melalui sebuah cerita</string>
+    <string name="login">Masuk</string>
+    <string name="create_account">Buat akun</string>
+    <string name="register">Daftar</string>
+    <string name="create_your_account">Buat akun dan bagikan cerita</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah</string>
+    <string name="name">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="appwidget_text">Story App Banner</string>
+    <string name="empty_text">Tidak ada data</string>
+    <string name="app_widget_description">Story App Description</string>
+</resources>

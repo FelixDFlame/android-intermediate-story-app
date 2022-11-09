@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="welcome_story_app">Welcome to Story App</string>
+    <string name="share_your_experience">Share your experience through a story</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create an account</string>
+    <string name="register">Register</string>
+    <string name="create_your_account">Create your account and share you stories</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="appwidget_text">Story App Banner</string>
+    <string name="empty_text">NO DATA</string>
+    <string name="app_widget_description">Story App Description</string>
+    <string name="title_activity_location">LocationActivity</string>
+</resources>
